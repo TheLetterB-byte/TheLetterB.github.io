@@ -1,8 +1,9 @@
 html, body{
-    background-color: FFB35C; 
+    background-color: black; 
 }
 
 h1{
+    color: FFB35C;
     font-size: 50;
     text-align: center;
     font-family: century gothic
