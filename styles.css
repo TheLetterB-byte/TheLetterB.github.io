@@ -1,17 +1,18 @@
-<<<<<<< HEAD
 body{
     height: 100vh;
     width: 100vw;
     background-color: FFB35C;
-=======
-html, body{
-    background-color: black; 
->>>>>>> 1a2d1b2a608480edac7c0371c4660a9e61c2cc42
 }
 
 h1{
-    color: FFB35C;
     font-size: 50;
     text-align: center;
     font-family: century gothic
+}
+
+img{
+    position:fixed;
+    z-index: 2;
+    right: 15%;
+    border-radius: 0.5rem;
 }
