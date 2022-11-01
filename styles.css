@@ -13,6 +13,10 @@ h1{
 img1{
     position:fixed;
     z-index: 2;
-    right: 15%;
-    border-radius: 0.5rem;
+    left: 15%;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
 }
