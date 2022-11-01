@@ -1,19 +1,20 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-color: FFB35C;
+    background-color: black;
 }
 
 h1{
+    color: FFB35C;
     font-size: 50;
     text-align: center;
     font-family: century gothic
 }
 
-img1{
+.img1{
     position:fixed;
     z-index: 2;
-    left: 15%;
+    right: 30%;
     border-radius: 0.7rem;
     -webkit-border-radius: 0.7rem;
     -moz-border-radius: 0.7rem;
