@@ -14,7 +14,7 @@ h1{
     overflow: hidden;
     position: absolute;
     z-index: 2;
-    left: 10px;
+    left: 30px;
     bottom: 10px;
     border-radius: 0.5rem;
     -webkit-border-radius: 0.5rem;
@@ -39,7 +39,7 @@ h1{
     overflow: hidden;
     position: absolute;
     z-index: 2;
-    left: 420px;
+    left:440px;
     bottom: 10px;
     border-radius: 0.5rem;
     -webkit-border-radius: 0.5rem;
@@ -53,6 +53,31 @@ h1{
 }
 
 .img2:hover{
+    transform: translateY(-10%) scale(1.03);
+    -webkit-transform: translateY(-10%) scale(1.03);
+    -moz-transform: translateY(-10%) scale(1.03);
+    -ms-transform: translateY(-10%) scale(1.03);
+    -o-transform: translateY(-10%) scale(1.03);
+}
+
+.img3{
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    left: 850px;
+    bottom: 10px;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform, background-color;
+    transition-timing-function: ease;
+    transition-duration: 400ms;
+}
+
+.img3:hover{
     transform: translateY(-10%) scale(1.03);
     -webkit-transform: translateY(-10%) scale(1.03);
     -moz-transform: translateY(-10%) scale(1.03);
