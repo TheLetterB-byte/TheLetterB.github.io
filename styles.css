@@ -1,149 +1,67 @@
 body{
     background-size: cover;
-    background-color: black;
+    background-color: #040807;
 }
 
-h1{
-    color: #FFB35C;
+.name{
+    position: relative;
+    color: #ff7b29;
     font-size: 50;
-    text-align: center;
     top: 1rem;
 }
+
+.img1Wrapper{
+  border-size: 10px;
+  border-color: white;
+  position: relative;
+  max-width: 50vw;
+  max-height: 100vh;
+  left:45vw;
+  bottom: 10vh;
+  top: 10vh;
+}
+
+.img1Wrapper img{width:110%}
 
 .img1{
     overflow: hidden;
     position: absolute;
-    z-index: 3;
-    left:410px;
-    bottom: 10px;
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+    border-radius: 6%;
     cursor: pointer;
-    transition: transform, background-color;
+    transition: transform,opacity;
     transition-timing-function: ease;
     transition-duration: 300ms;
 }
 
-.img1:hover{
-    transform: translateX(5%);
-    -webkit-transform: translateX(5%);
-    -moz-transform: translateX(5%);
-    -ms-transform: translateX(5%);
-    -o-transform: translateX(5%);
+.img1:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
 }
 
 .img1:active{
-    transform: scale(.98);
-    -webkit-transform: scale(.98);
-    -moz-transform: scale(.98);
-    -ms-transform: scale(.98);
-    -o-transform: scale(.98);
+    transform: scale(1.08);
 }
 
-.aboutMe{
-    z-index: 4;
-    position: relative;
-    font-size: 20;
-    color: transparent;
-}
-
-.img1:hover .aboutMe{
-    color: white;
-}
-
-.img2{
-    overflow: hidden;
-    position: absolute;
+@media (min-aspect-ratio: 8/5){
+  .aboutMe{
+    user-select: none;
+    background-color: transparent;
     z-index: 3;
-    left:440px;
-    bottom: 10px;
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
-    cursor: pointer;
-    transition: transform, background-color;
+    position: absolute;
+    left: 4rem;
+    bottom: 10vh;
+    top: 10vh;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color: #ff7b29;
+    transition: opacity;
     transition-timing-function: ease;
     transition-duration: 300ms;
+    opacity: 0;
+  }
 }
 
-.img2:hover{
-    transform: translateX(5%);
-    -webkit-transform: translateX(5%);
-    -moz-transform: translateX(5%);
-    -ms-transform: translateX(5%);
-    -o-transform: translateX(5%);
-}
-
-.img2:active{
-    transform: scale(.98);
-    -webkit-transform: scale(.98);
-    -moz-transform: scale(.98);
-    -ms-transform: scale(.98);
-    -o-transform: scale(.98);
-}
-
-.myWork{
-    z-index: 3;
-    position: relative;
-    font-size: 20;
-    text-emphasis-color: gray;
-    color: transparent;
-}
-
-.img2:hover .myWork{
-    color: white;
-}
-
-.myWork:hover{
-    color: white;
-}
-
-.img3{
-    overflow: hidden;
-    position: absolute;
-    z-index: 3;
-    left:470px;
-    bottom: 10px;
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
-    cursor: pointer;
-    transition: transform, background-color;
-    transition-timing-function: ease;
-    transition-duration: 300ms;
-}
-
-.img3:hover{
-    transform: translateX(5%);
-    -webkit-transform: translateX(5%);
-    -moz-transform: translateX(5%);
-    -ms-transform: translateX(5%);
-    -o-transform: translateX(5%);
-}
-
-.img3:active{
-    transform: scale(.98);
-    -webkit-transform: scale(.98);
-    -moz-transform: scale(.98);
-    -ms-transform: scale(.98);
-    -o-transform: scale(.98);
-}
-
-.photoGallery{
-    z-index: 3;
-    position: relative;
-    font-size: 20;
-    text-emphasis-color: gray;
-    color: transparent;
-}
-
-.img3:hover .photoGallery{
-    color: white;
+.img1Wrapper:hover .aboutMe{
+  opacity: 1;
+  display: block;
 }
